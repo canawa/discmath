@@ -1,3 +1,4 @@
 from operations import *
 from graphics import *
-draw_truth_table(img_name='test', variable_count=4)
+func = 'inv(xor(xor(x,y), z))'
+draw_truth_table(img_name='work', function=func)
